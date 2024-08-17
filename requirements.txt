@@ -1,0 +1,5 @@
+streamlit
+pydantic
+sqlalchemy
+llama-index
+openai
