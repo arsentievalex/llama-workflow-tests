@@ -19,6 +19,9 @@ from llama_index.core.workflow import (
 # `pip install llama-index-llms-openai` if you don't already have it
 from llama_index.llms.openai import OpenAI
 
+# Set your OpenAI API key
+os.environ["OPENAI_API_KEY"] = st.secrets['openai_key']
+
 class JokeEvent(Event):
     joke: str
 
